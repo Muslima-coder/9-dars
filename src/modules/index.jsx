@@ -1,4 +1,4 @@
-import Header from "./Header/Header";
+import Header from "./Header";
 import Hero from "./Hero/hero"
 import FreeShop from "./Free";
 import Product from "./Product"
