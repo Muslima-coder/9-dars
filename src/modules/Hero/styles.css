@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.swiper {
+  width: 100%;
+  height: 725px;
+}
+.swiper-slide{
+  background-image: url(../../assets/images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
+
+.hero{
+  padding: 250px 0 0 112px;
+}
+.btn{
+  padding: 15px 0;
+}
