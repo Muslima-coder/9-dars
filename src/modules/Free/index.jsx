@@ -3,8 +3,9 @@ import { fimg1, fimg2, fimg3, free1} from "../../assets/images"
 function freeShop() {
     return(
         <section>
-            <div className="containers bg-[rgba(90,90,201,1)] py-[45px] px-[18px] ">
-                <ul className="flex justify-around items-center mb-[50px] ">
+            <div className="containers ">
+               <div className="bg-[rgba(90,90,201,1)] !py-[61px] !px-[18px] !mb-[80px]">
+                 <ul className="flex justify-around items-center  ">
                     <li className="flex gap-[16px] items-center ">
                         <img src={free1} alt="img" />
                         <div>
@@ -34,6 +35,7 @@ function freeShop() {
                         </div>
                     </li>
                 </ul>
+               </div>
 
                 <div className="flex justify-between items-center">
                     <img src={fimg1} alt="photo" />

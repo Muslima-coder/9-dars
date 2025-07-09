@@ -72,19 +72,19 @@ function Product () {
         ]
 
         return(
-            <section>
+            <section className="!pt-[50px] !pb-[114px] ">
                 <div className="containers ">
                     <div className="text-center">
-                        <h2 className="font-bold text-[30px] text-[rgba(17,17,17,1)] mb-[32px]">Our products</h2>
-                    <p className="font-normal text-[14px] text-[rgba(86,86,86,1)] mb-[49px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, culpa?</p>
-                    <div className="flex items-center gap-[33px] justify-center">
-                        <a href="#">new products</a>
-                        <a href="#">onsale</a>
-                        <a href="#">upcoming products</a>
+                        <h2 className="font-bold text-[30px] text-[rgba(17,17,17,1)] !mb-[32px]">Our products</h2>
+                    <p className="font-normal text-[14px] text-[rgba(86,86,86,1)] !mb-[49px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, culpa?</p>
+                    <div className="flex items-center gap-[33px] justify-center !mb-[43px]">
+                        <a className="font-semibold text-[16px] text-[rgba(17,17,17,1)] hover:text-[rgba(90,90,201,1)] duration-300 " href="#">new products</a>
+                        <a className="font-semibold text-[16px] text-[rgba(17,17,17,1)] hover:text-[rgba(90,90,201,1)] duration-300 " href="#">onsale</a>
+                        <a className="font-semibold text-[16px] text-[rgba(17,17,17,1)] hover:text-[rgba(90,90,201,1)] duration-300 " href="#">upcoming products</a>
                     </div>
                     </div>
 
-                    <div className="flex flex-wrap items-center gap-[30px] ">
+                    <div className="flex flex-wrap items-center gap-[12px] justify-center ">
                         {ProductList.map(item => <ProductItem key={item.id} item={item} /> )}
                     </div>
                 </div>
